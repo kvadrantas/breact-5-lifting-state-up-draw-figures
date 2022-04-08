@@ -1,0 +1,64 @@
+.circle {
+  float: left;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  p {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+.square {
+  float: left;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  p {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+.hline {
+  float: left;
+  margin: 5px;
+  width: 50px;
+  height: 2px;
+}
+
+.vline {
+  float: left;
+  margin: 5px;
+  width: 2px;
+  height: 50px;
+
+}
+
+.row {
+  margin-bottom: 30px;
+  width: 50px;
+}
+
+input {
+  width: 115px;
+}
+
+.render-content,
+.form-content {
+  float: left;
+  margin-top: 50px;
+}
+.render-content {
+  overflow-y: scroll;
+  background-color: azure;
+  border: 1px solid green;
+  height: calc(100vh - 55px);
+  width: calc(100vw - 300px);
+}
+
+.form-content{
+  margin-left: 25px;
+  margin-right: 25px;
+}
